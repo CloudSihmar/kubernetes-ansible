@@ -1,0 +1,12 @@
+timezone: "UTC"
+k8s_version: "1.33"
+k8s_cni: calico
+container_runtime: cri-o
+pod_network_cidr: "10.10.0.0/16"
+cri_socket: "unix:///var/run/crio/crio.sock"
+control_plane_endpoint: "172.31.94.31:6443"
+configure_firewalld: false
+setup_proxy: false
+proxy_server: "proxy.example.com:8080"
+docker_proxy_exclude: "localhost,127.0.0.1"
+
