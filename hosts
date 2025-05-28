@@ -5,7 +5,7 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 interpreter_python = /usr/bin/python3.12
 
 [k8smasters]
-k8smaster ansible_host=54.90.76.54
+k8smaster1 ansible_host=54.90.76.54
 
 [k8sworkers]
 k8snode01 ansible_host=3.86.144.135
