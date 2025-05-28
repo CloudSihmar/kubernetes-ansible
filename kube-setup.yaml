@@ -6,7 +6,7 @@
     - kubernetes-bootstrap
 
 - name: Initialize Kubernetes Control Plane
-  hosts: k8smaster
+  hosts: k8smaster1
   become: yes
   tasks:
     - name: Run kubeadm init with control plane endpoint
