@@ -2,6 +2,7 @@
 - name: Configure timezone on all nodes
   community.general.timezone:
     name: "{{ timezone }}"
+  when: timezone is defined
 
 - name: Ensure chrony package is installed
   ansible.builtin.package:
