@@ -1,4 +1,4 @@
-timezone: "UTC"
+#timezone: "UTC"
 k8s_version: "1.33"
 k8s_cni: calico
 container_runtime: cri-o
